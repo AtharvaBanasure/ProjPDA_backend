@@ -193,7 +193,7 @@ var transporter = nodemailer.createTransport({
     const { name, email, msg } = req.body;
 
     var mailOptions = {
-        from: name,
+        from: "acesoham322@gmail.com",
         to: 'pratham03d@gmail.com',
         subject: email,
         text: msg
